@@ -1,0 +1,40 @@
+================================================================================
+HUONG DAN CAP NHAT PHIEN BAN V2.2 (SUA LOI FONT & CHONG XUNG DOT CU CHI)
+================================================================================
+
+1. GIAI THICH ANH CHUP MAN HINH BAN VUA GUI:
+   - CHUC MUNG BAN: Phan mem V2.2 da duoc nap thanh cong tren may moi!
+     Bang chung la Bang cu chi AI o goc duoi ben phai da hien thi dung:
+     '👍 Gio ngon cai (0.35s): Bat/Tat mo hop 2D' va Camera dang nhan dien tot.
+   
+   - VE LOI VO KY TU (MOJIKAKE) O THANH TIEU DE & THANH CONG CU:
+     Do thanh tieu de Win32 va thanh cong cu Toolbar cua Windows khi render
+     cac emoji 4-byte tren moi truong Windows ANSI bi vo thanh ky tu la.
+     Dong thoi chu tren webcam hien thi 'CH???A PH???T HI???N TAY' do OpenCV
+     chi ho tro ve ky tu chuan ASCII.
+     -> Ban cap nhat nay da chuan hoa 100% cac nut bam thanh nhan chuyen nghiep:
+        [F11] Phong to vung 3D | [M] Lat guong | [H] Hop chieu | [U] Mo hop 2D | [Reset]
+        va HUD camera ve chu ASCII sac net 'GESTURE: CHUA PHAT HIEN TAY'.
+
+   - VE HIEN TUONG CHU TRONG KHUNG 3D BI LAT NGUOC (mo 0.01 = s):
+     Trong anh, nut '[M] Lat guong' dang duoc BAT. Day la tinh nang danh rieng khi
+     chieu vao Hop kinh Hologram 45 do (guong phan chieu se lat nguoc lai giup nguoi
+     xem nhin thay chu xuoi chieu binh thuong).
+     -> Neu ban dang xem truc tiep tren man hinh laptop: Chi can nhan phim 'M' tren
+        ban phim hoac bam nut '[M] Lat guong' tren thanh cong cu de chu quay ve xuoi chieu!
+
+2. CACH CAP NHAT NHANH SANG MAY MOI (CHI MAT 10 GIAY):
+   Buoc 1: Chep file 'Hologram_Math_V2_MOI_NHAT_CHEP_MAY_MOI.zip' sang may moi.
+   Buoc 2: Giai nen file zip ra.
+   Buoc 3: Copy cac thu muc va file:
+           - ui/
+           - vision/
+           - graphics/
+           - main.py
+           - run_app.bat
+           dan DE TRUC TIEP vao thu muc dang chay tren may moi:
+           'D:\SMLab\HOLOGRAM MATH\Hologram_Math\Hologram_Math_V2_MOI_NHAT'
+   Buoc 4: Chon 'Replace the files in the destination' (Ghi de tat ca file).
+   Buoc 5: Chay 'python main.py' (hoac nhay dup 'run_app.bat'). Moi chu va nut bam
+           se hien thi dep mat, sac net va chuyen nghiep 100%!
+================================================================================

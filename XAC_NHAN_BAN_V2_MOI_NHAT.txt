@@ -1,0 +1,27 @@
+================================================================================
+XAC NHAN: BAN V2.3 CHINH THUC MOI NHAT - HOAN THIEN VA DONG GOI TOAN DIEN
+Ngay dong goi: 10/09/2026
+================================================================================
+
+1. CAC TINH NANG VA NANG CAP TRONG BAN V2.3:
+   - Cu chi Mo hop 2D: 👍 Gio ngon cai (Thumbs-Up) giu 0.35s de Mo bung / Gap lai.
+   - He thong Chiet tieu xung dot cu chi (Anti-Conflict Engine): Triet tieu 100%
+     hien tuong nham lan giua Zoom, Xoay va Mo hop 2D.
+   - Cu chi 2 tay: Chuyen biet cho ZOOM muot ma, tach rieng hoan toan khoi Mo hop.
+   - Optical FOV Zoom: Thu phong quang hoc thich ung (0.2x - 10.0x), hinh khoi
+     khong bi dut gay, khong bi Near Plane cat rach, khong chui vao ruot.
+   - Tu dong tuong thich High-DPI Windows Scaling (125%, 150%): Hinh khoi tran
+     100% man hinh vat ly (1920x1080), xoa bo hoan toan vung den mep tren va mep phai.
+   - Phim F (Smart Fit/Fill): Chuyen doi thong minh giua Vua khit (85%) va
+     Tran 100% toan man hinh (Fill Screen 16:9).
+   - Phim Shift+F: Phong to tran kin toan man hinh tuc thi.
+   - Phim H: Bat/Tat che do Hop Hologram (nen den tuyen, an sach vien Cyan ngoai).
+   - Phim M: Lat guong quang hoc de hien thi dung chieu chu tren hop kinh 45 do.
+   - Phim R: Dat lai goc nhin va zoom ve chuan mac dinh ban dau (100%).
+   - Phim + va -: Tang / Giam do phong to tung nac.
+   - Chuan hoa ma hoa UTF-8 & ASCII HUD Camera: Khong bao gio bi vo font tren Windows.
+
+2. HUONG DAN CAI DAT VA CHAY:
+   - Chay truc tiep bang file: run_app.bat (hoac lenh: python main.py).
+   - Bam F11 de vao che do Toan Man Hinh.
+================================================================================
